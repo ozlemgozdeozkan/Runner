@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class StartPage : MonoBehaviour
 {
@@ -11,10 +12,11 @@ public class StartPage : MonoBehaviour
     public Button QuitGameButton;
     public GameObject MainMenuPanel;
 
+
     public void StartButton()
     {
-        //add the code which is started the game
-        MainMenuPanel.SetActive(false);
+        Cursor.visible = false;
+        SceneManager.LoadScene(1);
     }
     public void ResumeButton()
     {

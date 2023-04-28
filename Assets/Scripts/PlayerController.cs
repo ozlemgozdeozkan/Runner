@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public GameObject MainMenuPanel;
+    //public GameObject MainMenuPanel;
     //public GroundBuild createGround;
 
     //Singleton Design Patter
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        MainMenuPanel.SetActive(true);
+       
     }
     private void Update()
     {
