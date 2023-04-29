@@ -8,7 +8,7 @@ public class Reward : MonoBehaviour
 
     private void Update()
     {
-        // oyuncu belirli bir noktadan daha uza?a gitti?inde (REWARD'un) pozisyonunu öne al
+        // oyuncu belirli bir noktadan daha uzaga gittiginde (REWARD'un) pozisyonunu öne al
     }
 
     private void OnTriggerEnter(Collider other)
@@ -16,8 +16,8 @@ public class Reward : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             float randomXRange = Random.Range(-2.35f, 2.35f);
-            float randomZRange = Random.Range(10f, 20f);
-            transform.position = new Vector3(randomXRange, 0.3f, transform.position.z + randomZRange);
+            float randomZRange = Random.Range(45f, 85f);
+            transform.position = new Vector3(randomXRange, 1.3f, transform.position.z + randomZRange);
 
             switch (rewardType)
             {
