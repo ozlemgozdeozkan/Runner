@@ -5,25 +5,24 @@ using UnityEngine;
 public class Reward : MonoBehaviour
 {
     [SerializeField] private RewardTypes rewardType;
-    void Start()
-    {
 
+    private void Update()
+    {
+        // oyuncu belirli bir noktadan daha uza?a gitti?inde (REWARD'un) pozisyonunu öne al
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            float randomXRange = Random.Range(-2.35f, 2.35f);
+            float randomZRange = Random.Range(10f, 20f);
+            transform.position = new Vector3(randomXRange, 0.3f, transform.position.z + randomZRange);
+
             switch (rewardType)
             {
                 case RewardTypes.GOOD_IRON:
                     ScoreManager.Instance.AddScore(10);
-                    Destroy(gameObject);
                     break;
                 case RewardTypes.BAD_IRON:
                     ScoreManager.Instance.RemoveScore(5);
@@ -37,9 +36,10 @@ public class Reward : MonoBehaviour
             }
         }
     }
-
 }
+
 public enum RewardTypes
 {
-    GOOD_IRON, BAD_IRON, GOOD_COIN, BAD_COIN
+    GOOD_IRON, BAD_IRON, GOOD_COIN, BAD_COIN, GOOD_FLOWER, BAD_FLOWER, GOOD_SUIT, BAD_SUIT, GOOD_ROLLINGPIN, BAD_ROLLINGPIN, GOOD_HELMET,
+    BAD_HELMET, GOOD_CRY, BAD_CRY, GOOD_PLIERS, BAD_PLIERS, GOOD_RING, BAD_RING, GOOD_VANISH, BAD_VANISH, GOOD_STEERINGWHEEL, BAD_STEERINGWHEEL
 }

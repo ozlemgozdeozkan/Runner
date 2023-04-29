@@ -1,19 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScorePanel : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI scoreText;
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Image _goodImage;
+    [SerializeField] private Image _badImage;
+    public TextMeshProUGUI goodText;
+    public TextMeshProUGUI badText;
 
-    
     void Update()
     {
-        scoreText.text = $"Score: {ScoreManager.Instance.TotalScore}";  
+        scoreText.text = $"Score: {ScoreManager.Instance.TotalScore}";
+        scoreText.color = Color.blue;
+    }
+
+    public void ChangeRewardType(UITextsAndSprites uiTextsAndSprites)
+    {
+        goodText.text = uiTextsAndSprites.goodText;
+        badText.text = uiTextsAndSprites.badText;
+        _goodImage.sprite = uiTextsAndSprites.goodSprites;
+        _badImage.sprite = uiTextsAndSprites.badSprites;
     }
 }
