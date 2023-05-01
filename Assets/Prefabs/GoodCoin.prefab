@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5718469859125980021}
   - component: {fileID: 7546028857462857663}
   m_Layer: 0
-  m_Name: Coin$
+  m_Name: GoodCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -28,8 +28,10 @@ public class Reward : MonoBehaviour
                     ScoreManager.Instance.RemoveScore(5);
                     break;
                 case RewardTypes.GOOD_COIN:
+                    ScoreManager.Instance.AddScore(10);
                     break;
                 case RewardTypes.BAD_COIN:
+                    ScoreManager.Instance.RemoveScore(5);
                     break;
                 default:
                     break;

@@ -31,17 +31,21 @@ public class GameManager : MonoBehaviour
         {
             if (i >= desiredSecond)
             {
+                Debug.Log("aaaaaaaaaaaaaaaa");
                 for (int j = 0; j < rewards.Length; j++)
                 {
                     rewards[j] = uiTextsAndSprites[i].currentRewardObject;
+                    Debug.Log("aaaaaa");
                 }
                 currentTextsAndSprites++;
+                Debug.Log("dddd");
                 _scorePanel.ChangeRewardType(uiTextsAndSprites[currentTextsAndSprites]);
+                Debug.Log("rrr");
                 i = 0;
             }
         }
     }
-    
+
     private void SetComponents(Scene scene, LoadSceneMode loadSceneMode)
     {
         _scorePanel = GameObject.Find("ScorePanel").GetComponent<ScorePanel>(); //To call another script from another object?
