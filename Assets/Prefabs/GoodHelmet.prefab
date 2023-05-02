@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2976671050655849413}
   m_Layer: 0
-  m_Name: construction helmet
+  m_Name: GoodHelmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

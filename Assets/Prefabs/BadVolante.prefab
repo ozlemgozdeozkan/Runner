@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7231395526175404268}
   - component: {fileID: 4881871909993071654}
   m_Layer: 0
-  m_Name: VOLANTE
+  m_Name: BadVolante
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

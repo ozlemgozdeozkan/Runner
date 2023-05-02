@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2213932787055394994}
   - component: {fileID: 4133617719416714360}
   m_Layer: 0
-  m_Name: RollingPin_low
+  m_Name: GoodRollingPin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e1046bb2783ead4c96c542997ad892a, type: 2}
+  - {fileID: 2100000, guid: 1deda54548858424ab49288a0c0ef85c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
