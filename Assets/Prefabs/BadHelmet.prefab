@@ -42,8 +42,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2976671050655849413}
   - component: {fileID: -3401691254762268079}
+  - component: {fileID: -9129471135691327588}
   m_Layer: 0
-  m_Name: GoodHelmet
+  m_Name: BadHelmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,7 +86,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 7c782011c2750c74a8d16b40792b6e0c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,6 +108,14 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &-9129471135691327588
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451244764158722431}
+  m_Mesh: {fileID: -5963442920211976399, guid: c4eb216e5bef6b8438458fcac8da1b34, type: 3}
 --- !u!1 &7308220046711981417
 GameObject:
   m_ObjectHideFlags: 0
