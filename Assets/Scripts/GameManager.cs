@@ -29,21 +29,39 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < desiredSecond; i++)
         {
+           Debug.Log("deneme");
             if (i >= desiredSecond)
             {
                 Debug.Log("aaaaaaaaaaaaaaaa");
                 for (int j = 0; j < rewards.Length; j++)
                 {
-                    rewards[j] = uiTextsAndSprites[i].currentRewardObject;
-                    Debug.Log("aaaaaa");
+                    rewards[j] = uiTextsAndSprites[currentTextsAndSprites].currentRewardObject;
+
                 }
                 currentTextsAndSprites++;
-                Debug.Log("dddd");
                 _scorePanel.ChangeRewardType(uiTextsAndSprites[currentTextsAndSprites]);
-                Debug.Log("rrr");
                 i = 0;
             }
+
+            /*   float desiredSecond = Time.time;
+              for(int i=0; i < uiTextsAndSprites.Length; i++)
+             {
+                 if (desiredSecond % 20 == 0)
+                 {
+                     for (int j = 0; j < rewards.Length; j++)
+                     {
+                         rewards[j] = uiTextsAndSprites[currentTextsAndSprites].currentRewardObject;
+                     }
+
+                     currentTextsAndSprites++;
+                     _scorePanel.ChangeRewardType(uiTextsAndSprites[currentTextsAndSprites]);
+                     Debug.Log("saniye");
+
+                 }
+                 desiredSecond = 0f;
+             }*/
         }
+
     }
 
     private void SetComponents(Scene scene, LoadSceneMode loadSceneMode)
