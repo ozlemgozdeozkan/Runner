@@ -4,6 +4,7 @@ using UnityEngine;
 public class UITextsAndSprites
 {
     public GameObject currentRewardObject;
+    public GameObject currentBadObject;
     public Sprite goodSprites;
     public Sprite badSprites;
     public string goodText;

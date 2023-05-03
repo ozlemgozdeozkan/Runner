@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8715535787849180368}
   - component: {fileID: 5718469859125980021}
   - component: {fileID: 7546028857462857663}
+  - component: {fileID: -9219629502666272852}
+  - component: {fileID: 6610221698064956844}
   m_Layer: 0
   m_Name: GoodCoin
   m_TagString: Reward
@@ -84,3 +86,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-9219629502666272852
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338446818702802538}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020320293, y: 0.020320293, z: 0.021000525}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6610221698064956844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338446818702802538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 2
