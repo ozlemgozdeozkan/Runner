@@ -12,8 +12,8 @@ public class ScorePanel : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = $"Score: {ScoreManager.Instance.TotalScore}";
-        scoreText.color = Color.blue;
+        scoreText.text = $"SCORE: {ScoreManager.Instance.TotalScore}";
+        scoreText.color = Color.red;
     }
 
     public void ChangeRewardType(UITextsAndSprites uiTextsAndSprites)
