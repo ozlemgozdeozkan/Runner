@@ -260,9 +260,11 @@ GameObject:
   - component: {fileID: 4905447190878014511}
   - component: {fileID: 2004735890746678867}
   - component: {fileID: 3939453880927787465}
+  - component: {fileID: 6289570310548214644}
+  - component: {fileID: 7034476291590767585}
   m_Layer: 0
   m_Name: iron
-  m_TagString: Untagged
+  m_TagString: Reward
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -276,7 +278,7 @@ Transform:
   m_GameObject: {fileID: 5717450114738984597}
   m_LocalRotation: {x: -0, y: 0.99939156, z: -0, w: 0.03487844}
   m_LocalPosition: {x: 0.74447197, y: 0.174, z: 0.47381797}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7868079024610414331}
@@ -338,6 +340,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6289570310548214644
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5717450114738984597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02032029, y: 0.02032029, z: 0.02100052}
+  m_Center: {x: 0, y: 0.000000001862645, z: 0}
+--- !u!114 &7034476291590767585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5717450114738984597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 0
 --- !u!1 &7722440002465788475
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12076032, g: 0.18643649, b: 0.3352496, a: 1}
+  m_IndirectSpecularColor: {r: 0.12077082, g: 0.18644437, b: 0.33524808, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1090,6 +1090,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &418368728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6908522536430795223, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
+  m_PrefabInstance: {fileID: 1695004854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &418368731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418368728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 4
 --- !u!1 &478941591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,70 +1599,64 @@ MonoBehaviour:
     badText: Men earn more than women
   - currentRewardObject: {fileID: 5717450114738984597, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}
     currentBadObject: {fileID: 1015946061929479138, guid: 8b639be87110f704fa6e90f981d2c573, type: 3}
-    goodSprites: {fileID: 21300000, guid: 981cfa0727e346843951c402e9fa8dc2, type: 3}
-    badSprites: {fileID: 21300000, guid: cf2dd08176b863c4ca7f2aa05e121a0a, type: 3}
+    goodSprites: {fileID: 21300000, guid: e325f184a1b298643bcc53961823f63e, type: 3}
+    badSprites: {fileID: 21300000, guid: b5d77a40340cf974986dababe60b29ce, type: 3}
     goodText: Men can iron as well as women
-    badText: 'Men cannot iron '
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 21300000, guid: cf2dd08176b863c4ca7f2aa05e121a0a, type: 3}
-    badSprites: {fileID: 21300000, guid: cf2dd08176b863c4ca7f2aa05e121a0a, type: 3}
-    goodText: 3
-    badText: 3
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 4
-    badText: 4
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 5
-    badText: 5
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 6
-    badText: 6
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 7
-    badText: 7
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 8
-    badText: 8
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 9
-    badText: 9
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 10
-    badText: 10
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 11
-    badText: 11
-  - currentRewardObject: {fileID: 0}
-    currentBadObject: {fileID: 0}
-    goodSprites: {fileID: 0}
-    badSprites: {fileID: 0}
-    goodText: 12
-    badText: 12
+    badText: Men cannot iron well
+  - currentRewardObject: {fileID: 7080663837224173680, guid: ef9fb8bafa7336940ae5ee16a572599d, type: 3}
+    currentBadObject: {fileID: 4293378508089631442, guid: 156e915490688904fb6e2302ac20b76d, type: 3}
+    goodSprites: {fileID: 21300000, guid: 2cb109e0bd2bf4940a2c23af4122fb4a, type: 3}
+    badSprites: {fileID: 21300000, guid: 7dbfecf4159c26143972cb1930978bd4, type: 3}
+    goodText: 'Women can wear suit '
+    badText: Only men should wear suit
+  - currentRewardObject: {fileID: 6908522536430795223, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
+    currentBadObject: {fileID: 4290375506604039718, guid: bb49f0f6c399e064eba6fc0daa74b77b, type: 3}
+    goodSprites: {fileID: 21300000, guid: f489bd37f84d2ea4fa1159c600d1fb57, type: 3}
+    badSprites: {fileID: 21300000, guid: 8a625b4e1c3e2d44f81fbbe2064af8c4, type: 3}
+    goodText: Women can buy flowers to men
+    badText: Only men should buy flowers to women
+  - currentRewardObject: {fileID: 2476261925860169133, guid: 9df7400af0c29b24a8f9e7ee8c625268, type: 3}
+    currentBadObject: {fileID: 2476261925860169133, guid: b1a05e7235b5d2e41b45b79e374a4e0b, type: 3}
+    goodSprites: {fileID: 21300000, guid: 6dfc3101971850546be27da667aa039a, type: 3}
+    badSprites: {fileID: 21300000, guid: 7c91e5b97ed01db4b81d967c96b54905, type: 3}
+    goodText: Men can roll out dough as well as women
+    badText: Only women can roll out dough
+  - currentRewardObject: {fileID: 2451244764158722431, guid: afed2652472b2ae4da9f5e52f836cc55, type: 3}
+    currentBadObject: {fileID: 5958987728744768385, guid: 035c6d5e08ec9ec459da744476fbb888, type: 3}
+    goodSprites: {fileID: 21300000, guid: b81470276cb5d5b47833ed0364b82339, type: 3}
+    badSprites: {fileID: 21300000, guid: dcdee32c017038c4a868779a109189f4, type: 3}
+    goodText: Women can be engineers
+    badText: Only men should be engineers
+  - currentRewardObject: {fileID: 8102811103227923574, guid: ae983243ca75d3a4681926a32a1f2c53, type: 3}
+    currentBadObject: {fileID: 6354528312853146983, guid: 701729e2415038e4e90e955da42ee640, type: 3}
+    goodSprites: {fileID: 21300000, guid: 91b5a1d5d9a4d1d43bca2390da9c6bbf, type: 3}
+    badSprites: {fileID: 21300000, guid: 8ba32d7b11b4b944e9b60e22fa7b49fc, type: 3}
+    goodText: Men can cry, too
+    badText: Only women can cry
+  - currentRewardObject: {fileID: 273133507932264935, guid: 5615d15f38c01bc4a82e6d53e068dd5e, type: 3}
+    currentBadObject: {fileID: 8647694816682326754, guid: 3935b4b0c9c6fc44bbbcfe279d3319dd, type: 3}
+    goodSprites: {fileID: 21300000, guid: 0ed60103b03551244bfdfc222da45b43, type: 3}
+    badSprites: {fileID: 21300000, guid: 9fd4263383bb978478d3dab02ee61701, type: 3}
+    goodText: Women can repair things, too
+    badText: Only men can repair
+  - currentRewardObject: {fileID: 288163069320274256, guid: 41cea1318491c494395d43ed62c5cb12, type: 3}
+    currentBadObject: {fileID: 8492777730818173021, guid: 6b8584c3553e18a4e94a28448981a0b9, type: 3}
+    goodSprites: {fileID: 21300000, guid: 344d139318c5e9346bcd249ed29d836b, type: 3}
+    badSprites: {fileID: 21300000, guid: 7af27ac0c6520bc4b836f16cb9d06835, type: 3}
+    goodText: Women can also propose
+    badText: Only men should propose
+  - currentRewardObject: {fileID: 5759212788010767985, guid: 4317123064f87884a86bb2393df269af, type: 3}
+    currentBadObject: {fileID: 289867973410223197, guid: 8e322bc4c9026d54881564ccfef9e9f0, type: 3}
+    goodSprites: {fileID: 21300000, guid: a9eb3104174471f4694b3b5ba677a236, type: 3}
+    badSprites: {fileID: 21300000, guid: a0ea2bb37cc3b244a9902745646b1e90, type: 3}
+    goodText: Men can do cleaning as well
+    badText: Only women should do cleaning
+  - currentRewardObject: {fileID: 6394857291425244659, guid: b98d4fc81034e62469685866383aad67, type: 3}
+    currentBadObject: {fileID: 6394857291425244659, guid: 02aaceca86c593a419e7d44a20780e5f, type: 3}
+    goodSprites: {fileID: 21300000, guid: fe22cebe279a3044292e86bbba176c56, type: 3}
+    badSprites: {fileID: 21300000, guid: 090a980118e198a4ea5e2bd1d2f38308, type: 3}
+    goodText: Women can be good drivers as well
+    badText: Only men can be good drivers
   player: {fileID: 241125291}
   _desiredSecondToSpawnRewards: 3.5
   _desiredSecondToChangeReward: 20
@@ -2011,11 +2023,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4905447190878014511, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4905447190878014511, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.516
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4905447190878014511, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2052,6 +2064,10 @@ PrefabInstance:
     - target: {fileID: 5717450114738984597, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6289570310548214644, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}
+      propertyPath: m_Center.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}
@@ -2451,6 +2467,18 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6101198854056354669, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101198854056354669, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101198854056354669, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101198854056354669, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
@@ -2460,7 +2488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6101198854056354669, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6027
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 6101198854056354669, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2497,6 +2525,10 @@ PrefabInstance:
     - target: {fileID: 6908522536430795223, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908522536430795223, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
+      propertyPath: m_TagString
+      value: Reward
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a4e4a0523bc984d94cfe66922c225c, type: 3}
@@ -2946,7 +2978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PauseGameButton: {fileID: 256203582}
   ResumeGameButton: {fileID: 24851306}
-  QuitGameButton: {fileID: 0}
+  QuitGameButton: {fileID: 148558363}
   MainPanel: {fileID: 1717152436}
 --- !u!1 &2147020192
 GameObject:

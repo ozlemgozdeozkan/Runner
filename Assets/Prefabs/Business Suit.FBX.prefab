@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3521522085892126824}
   - component: {fileID: 536260651375785933}
   - component: {fileID: 2348021861345198855}
+  - component: {fileID: 3796141160445772927}
   m_Layer: 0
   m_Name: Business Suit.FBX
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3796141160445772927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4293378508089631442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99753004, y: 0.99871135, z: 0.9934027}
+  m_Center: {x: 0.000021889911, y: 0.0004540088, z: 0.0030107503}

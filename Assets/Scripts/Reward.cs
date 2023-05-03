@@ -31,6 +31,60 @@ public class Reward : MonoBehaviour
                 case RewardTypes.BAD_COIN:
                     ScoreManager.Instance.RemoveScore(5);
                     break;
+                case RewardTypes.GOOD_FLOWER:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_FLOWER:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
+                case RewardTypes.GOOD_SUIT:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_SUIT:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
+                case RewardTypes.GOOD_ROLLINGPIN:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_ROLLINGPIN:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
+                case RewardTypes.GOOD_HELMET:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_HELMET:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
+                case RewardTypes.GOOD_CRY:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_CRY:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
+                case RewardTypes.GOOD_PLIERS:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_PLIERS:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
+                case RewardTypes.GOOD_RING:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_RING:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
+                case RewardTypes.GOOD_VANISH:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_VANISH:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
+                case RewardTypes.GOOD_STEERINGWHEEL:
+                    ScoreManager.Instance.AddScore(10);
+                    break;
+                case RewardTypes.BAD_STEERINGWHEEL:
+                    ScoreManager.Instance.RemoveScore(5);
+                    break;
                 default:
                     break;
             }
