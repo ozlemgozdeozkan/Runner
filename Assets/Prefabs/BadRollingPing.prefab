@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2213932787055394994}
   - component: {fileID: 4133617719416714360}
   - component: {fileID: 7168926883934219853}
+  - component: {fileID: 3069339581670004896}
   m_Layer: 0
   m_Name: BadRollingPing
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2476261925860169133}
   m_LocalRotation: {x: -0.6142676, y: -0.35612744, z: -0.5819863, w: 0.3964096}
   m_LocalPosition: {x: 0.023, y: 2.609, z: 0.123}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,3 +98,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.008174759, y: 0.06439045, z: 0.008174764}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3069339581670004896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2476261925860169133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 9

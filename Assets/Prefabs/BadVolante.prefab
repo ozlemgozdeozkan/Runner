@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7231395526175404268}
   - component: {fileID: 4881871909993071654}
   - component: {fileID: 5333822351682743376}
+  - component: {fileID: 8624848921518151564}
   m_Layer: 0
   m_Name: BadVolante
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 6394857291425244659}
   m_LocalRotation: {x: -0.58296007, y: 0.5584178, z: -0.37460268, w: 0.45607027}
   m_LocalPosition: {x: -0.5602, y: 0.7115, z: 1.6597}
-  m_LocalScale: {x: -15.002984, y: -14.830726, z: -7.754124}
+  m_LocalScale: {x: -30, y: -30, z: -14}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,3 +98,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.03496371, y: 0.034958765, z: 0.014718121}
   m_Center: {x: -0.000016640508, y: -1.6894147e-10, z: -0.0055439034}
+--- !u!114 &8624848921518151564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6394857291425244659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 21

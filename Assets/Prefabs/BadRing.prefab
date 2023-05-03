@@ -1350,6 +1350,7 @@ GameObject:
   - component: {fileID: 2854270902905578601}
   - component: {fileID: 8617005205292694806}
   - component: {fileID: -8243965708759004537}
+  - component: {fileID: 4112008614115675609}
   m_Layer: 0
   m_Name: BadRing
   m_TagString: Untagged
@@ -1366,7 +1367,7 @@ Transform:
   m_GameObject: {fileID: 8492777730818173021}
   m_LocalRotation: {x: -0.10966419, y: 0.37214592, z: 0.044330668, w: 0.92060626}
   m_LocalPosition: {x: 0.011195255, y: 0.0014005825, z: 1.9955015}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 606401319096944886}
@@ -1454,8 +1455,21 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.56550443, y: 1, z: 0.41045508}
+  m_Center: {x: -0.0055332487, y: -2.8435132e-10, z: 0.036849245}
+--- !u!114 &4112008614115675609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8492777730818173021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 17
 --- !u!1 &8729980008282417732
 GameObject:
   m_ObjectHideFlags: 0

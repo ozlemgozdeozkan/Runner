@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7231395526175404268}
   - component: {fileID: 4881871909993071654}
   - component: {fileID: -3484251588487774835}
+  - component: {fileID: 2718764673734571518}
   m_Layer: 0
   m_Name: GoodVolante
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 6394857291425244659}
   m_LocalRotation: {x: -0.59833497, y: 0.58958346, z: -0.35672507, w: 0.40882012}
   m_LocalPosition: {x: -0.054718778, y: 0.5284748, z: 0.9276547}
-  m_LocalScale: {x: -9.824471, y: -9.840179, z: -7.754124}
+  m_LocalScale: {x: -30, y: -30, z: -14}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,3 +98,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0349637, y: 0.034958754, z: 0.014718109}
   m_Center: {x: -0.000016644259, y: -1.2401191e-12, z: -0.005543902}
+--- !u!114 &2718764673734571518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6394857291425244659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 20
