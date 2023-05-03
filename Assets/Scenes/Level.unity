@@ -1597,7 +1597,7 @@ MonoBehaviour:
     badSprites: {fileID: 21300000, guid: 981cfa0727e346843951c402e9fa8dc2, type: 3}
     goodText: Women can earn as much as men
     badText: Men earn more than women
-  - currentRewardObject: {fileID: 5717450114738984597, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}
+  - currentRewardObject: {fileID: 919132149155446097, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
     currentBadObject: {fileID: 1015946061929479138, guid: 8b639be87110f704fa6e90f981d2c573, type: 3}
     goodSprites: {fileID: 21300000, guid: e325f184a1b298643bcc53961823f63e, type: 3}
     badSprites: {fileID: 21300000, guid: b5d77a40340cf974986dababe60b29ce, type: 3}
@@ -1736,6 +1736,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afed2652472b2ae4da9f5e52f836cc55, type: 3}
+--- !u!1 &830823070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+  m_PrefabInstance: {fileID: 1304395918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &830823074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830823070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011119091, y: 0.022766583, z: 0.012079175}
+  m_Center: {x: 0, y: 0.0014278258, z: 0.0056753852}
+--- !u!114 &830823075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830823070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 0
 --- !u!1 &840267044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,6 +2425,98 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1304395918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_Name
+      value: plancha
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+      propertyPath: m_TagString
+      value: Reward
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+--- !u!1 &1304395919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78ae6f43fbcf8ff418288343232aa0cb, type: 3}
+  m_PrefabInstance: {fileID: 1304395918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1304395920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304395919}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1457617, y: 1.6016871, z: 2.5262046}
+  m_Center: {x: -0.028239131, y: 0.30084366, z: -0.081932485}
+--- !u!114 &1304395922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304395919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 0
 --- !u!1001 &1680520810
 PrefabInstance:
   m_ObjectHideFlags: 0

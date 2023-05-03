@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
         float randomXRange = Random.Range(-2.35f, 2.35f);
         float randomZOffset = Random.Range(10f, 30f);
 
-        Vector3 spawnPosition = new Vector3(randomXRange, 1.3f, player.position.z + randomZOffset);
+        Vector3 spawnPosition = new Vector3(randomXRange, 0.7f, player.position.z + randomZOffset);
 
         Instantiate(gameObject, spawnPosition, Quaternion.identity);
     }
