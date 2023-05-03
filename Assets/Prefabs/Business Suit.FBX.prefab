@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 536260651375785933}
   - component: {fileID: 2348021861345198855}
   - component: {fileID: 3796141160445772927}
+  - component: {fileID: 761851271287542332}
   m_Layer: 0
   m_Name: Business Suit.FBX
   m_TagString: Untagged
@@ -26,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4293378508089631442}
-  m_LocalRotation: {x: -0.5872769, y: -0.39383483, z: -0.39383474, w: 0.5872769}
-  m_LocalPosition: {x: -0.0182, y: 0.509, z: -0.044}
-  m_LocalScale: {x: 1.3055277, y: 0.3253, z: 0.76750183}
+  m_LocalRotation: {x: 0.047435313, y: -0.70551395, z: -0.70551395, w: -0.047435313}
+  m_LocalPosition: {x: -0.0047, y: 1.2993, z: 0.453}
+  m_LocalScale: {x: 2.302298, y: 1.1, z: 1.3534895}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -67.693}
+  m_LocalEulerAnglesHint: {x: -90, y: -120, z: -67.693}
 --- !u!33 &536260651375785933
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -97,3 +98,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.99753004, y: 0.99871135, z: 0.9934027}
   m_Center: {x: 0.000021889911, y: 0.0004540088, z: 0.0030107503}
+--- !u!114 &761851271287542332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4293378508089631442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3cc676c02f543b6d0ea091fa55cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardType: 7

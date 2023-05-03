@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6526678697475666724}
   - component: {fileID: 8640977733544309950}
   - component: {fileID: 8499502477184432444}
+  - component: {fileID: 2433531752893267191}
   m_Layer: 0
   m_Name: BadIron
   m_TagString: Reward
@@ -103,6 +104,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rewardType: 1
+--- !u!65 &2433531752893267191
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015946061929479138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13483039, y: 0.28484902, z: 0.16450658}
+  m_Center: {x: 0.0014305911, y: 0.14189105, z: -0.02415558}
 --- !u!1 &3056454710718799692
 GameObject:
   m_ObjectHideFlags: 0
