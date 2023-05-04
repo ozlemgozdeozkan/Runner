@@ -9,6 +9,7 @@ public class StartPage : MonoBehaviour
 {
     public Button StartGameButton;
     public Button QuitGameButton;
+    public Button ResartGameButton;
     public GameObject MainMenuPanel;
 
     public void StartButton()
@@ -18,5 +19,10 @@ public class StartPage : MonoBehaviour
     public void QuitButton()
     {
         Application.Quit();
+    }
+    public void RestartButton()
+    {
+        Debug.Log("Clicked");
+        SceneManager.LoadScene(0);
     }
 }

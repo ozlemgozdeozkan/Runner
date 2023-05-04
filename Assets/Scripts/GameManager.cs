@@ -36,7 +36,10 @@ public class GameManager : MonoBehaviour
         if (_elapsedTimeToChangeReward >= _desiredSecondToChangeReward)
         {
             _currentReward++;
+            if (_currentReward.Equals(uiTextsAndSprites.Length))
+                _currentReward = 0;
             _scorePanel.ChangeRewardType(uiTextsAndSprites[_currentReward]);
+
             _elapsedTimeToChangeReward = 0.0f;
         }
     }
@@ -47,9 +50,11 @@ public class GameManager : MonoBehaviour
 
         if (_elapsedTimeToSpawnReward >= _desiredSecondToSpawnRewards)
         {
-            SpawnReward(uiTextsAndSprites[_currentReward].currentRewardObject);
-            SpawnReward(uiTextsAndSprites[_currentReward].currentBadObject);
-
+            if (_currentReward < uiTextsAndSprites.Length)
+            {
+                SpawnReward(uiTextsAndSprites[_currentReward].currentRewardObject);
+                SpawnReward(uiTextsAndSprites[_currentReward].currentBadObject);
+            }
             _elapsedTimeToSpawnReward = 0.0f;
         }
     }
@@ -61,7 +66,7 @@ public class GameManager : MonoBehaviour
 
         Vector3 spawnPosition = new Vector3(randomXRange, 0.7f, player.position.z + randomZOffset);
 
-        Instantiate(gameObject, spawnPosition, Quaternion.identity);
+        Instantiate(gameObject, spawnPosition, gameObject.transform.rotation);
     }
 
     private void SetComponents(Scene scene, LoadSceneMode loadSceneMode)

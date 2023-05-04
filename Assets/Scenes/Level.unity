@@ -1593,8 +1593,8 @@ MonoBehaviour:
   uiTextsAndSprites:
   - currentRewardObject: {fileID: 8338446818702802538, guid: 6f715a63b7a82494e86ad521b6859612, type: 3}
     currentBadObject: {fileID: 8338446818702802538, guid: 45f7f01449afed84b822ba7a1ecad41f, type: 3}
-    goodSprites: {fileID: 21300000, guid: 981cfa0727e346843951c402e9fa8dc2, type: 3}
-    badSprites: {fileID: 21300000, guid: 981cfa0727e346843951c402e9fa8dc2, type: 3}
+    goodSprites: {fileID: 21300000, guid: d433d8fab4a35d74ba704847a1b01898, type: 3}
+    badSprites: {fileID: 21300000, guid: c47aa9a97119f6b4fb7942cc46571000, type: 3}
     goodText: Women can earn as much as men
     badText: Men earn more than women
   - currentRewardObject: {fileID: 5717450114738984597, guid: 76b0b6fc09d7ed341a5b001a19cc59f7, type: 3}

@@ -7,7 +7,7 @@ public class ScoreManager : MonoBehaviour
     private static ScoreManager _instance;
     public static ScoreManager Instance { get { return _instance; } }
    
-    public float TotalScore { get; private set; }
+    public float TotalScore { get; set; }
 
 
     // ------------------------ UNITY BUILT-IN METHODS ------------------------

@@ -5,6 +5,10 @@ using UnityEngine;
 public class Reward : MonoBehaviour
 {
     [SerializeField] private RewardTypes rewardType;
+    private void Start()
+    {
+        Destroy(gameObject, 10f);
+    }
 
     private void Update()
     {
