@@ -19,9 +19,10 @@ public class PlayerController : MonoBehaviour
 
     private float _moveDirectionX = 0.00f;
 
+
     private void Start()
     {
-       
+      
     }
     private void Update()
     {
@@ -72,6 +73,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(Remove(collision.gameObject));
             GroundBuild.Instance.CreateGroundLogic();
         }
+
     }
     private IEnumerator Remove(GameObject obj)
     {
